@@ -1,5 +1,5 @@
 ---
-version: 0.0.2
+version: 0.0.1
 
 input:
 
@@ -16,12 +16,12 @@ input:
     - name: weight_1
       type: Numeric
       value:
-      help: Weight for first image (positive integer).
+      help: Weight for first image (float).
 
     - name: weight_2
       type: Numeric
       value:
-      help: Weight for second image (positive integer).
+      help: Weight for second image (float).
 
     - name: plot
       type: Plot
@@ -38,3 +38,8 @@ output:
     - name: figure
       type: Figure
       help: Comparison of "image_1", "image_2" and "combined_image".
+
+
+
+
+
