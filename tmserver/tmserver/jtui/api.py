@@ -455,7 +455,9 @@ def run_jobs(experiment_id):
             job_collection=job_collection,
             verbosity=2,
             duration=submit_args.duration,
-            memory=submit_args.memory,
+            memory=11400,
+#            memory=submit_args.memory,
+#            cores=4
             cores=submit_args.cores
         )
 
